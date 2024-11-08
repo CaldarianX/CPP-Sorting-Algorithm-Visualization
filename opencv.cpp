@@ -15,10 +15,10 @@ int main() {
     ShuffleArray(n,size);
     auto start = std::chrono::high_resolution_clock::now();
 
-    // RadixSort(v,blankImage,height,width-200,true);
+    RadixSort(v,blankImage,height,width-200,true);
     // MergeSort(v, int 0,v.size()-1,blankImage,height,width);
     // std::sort(std::begin(v),std::end(v));
-    BubbleSort(n,size,blankImage,height,width-200);
+    // BubbleSort(n,size,blankImage,height,width-200);
 
     auto end = std::chrono::high_resolution_clock::now();
 
